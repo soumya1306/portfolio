@@ -1,7 +1,8 @@
+import AboutSection from "../components/AboutSection";
+import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import StarBackground from "../components/StarBackground";
 import ThemeToggle from "../components/ThemeToggle";
-import { cn } from "../lib/utils";
 
 export default function Home(){
 
@@ -17,6 +18,10 @@ export default function Home(){
     <Navbar />
 
     {/* Main Content */}
+    <main>
+      <HeroSection />
+      <AboutSection />
+    </main>
     
     
     {/* Footer */}
